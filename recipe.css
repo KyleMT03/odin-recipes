@@ -1,3 +1,32 @@
 h1 {
     padding:1rem;
 }
+.recipe {
+    display:flex;
+    justify-content: space-between;
+    padding:0 3rem;
+    border-bottom: 2px solid rgb(183, 183, 183);
+}
+.tutorial {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.chicken {
+    width:30rem;
+    border-radius: 2rem;
+}
+.card-img {
+   width:100%;
+   border-radius: 2rem;;
+}
+.list {
+   text-align: center;
+   display:grid;
+   gap:1rem;
+}
+.card {
+    background-color:rgb(183, 183, 183);
+    width:20rem;
+    border-radius: 2rem;
+}
