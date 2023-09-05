@@ -5,7 +5,7 @@
 
 .navbar {
     display:flex;
-    justify-content:space-between;
+    justify-content:left;
     padding: 1rem 2rem;
     border-bottom: 2px solid rgb(183, 183, 183);
     align-items: center;
@@ -20,15 +20,6 @@
 }
 .navbrand:hover {
     opacity:75%;
-}
-.nav-list {
-    
-}
-.nav-item {
-    display: inline-block;
-}
-.nav-link {
-
 }
 .nav-link:hover {
     color:gray;
@@ -66,4 +57,38 @@ h4 {
     font-size:2rem;
     letter-spacing: .05rem;
     text-align: center;
+}
+.recipes {
+  display: flex;
+  flex-direction: column;
+  gap:1em;
+  padding:1em;
+  border-bottom: 2px solid rgb(183, 183, 183);
+}
+.card {
+    background-color: rgb(218, 219, 219);
+   text-align: center;
+   color:black;
+   text-decoration: none;
+}
+.card-img {
+    width:100%;
+    height:18rem;
+}
+.recipes-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:5rem;
+    padding:1rem;
+}
+.contact {
+    border-bottom: 2px solid rgb(183, 183, 183);
+}
+footer {
+    text-align: center;
+    padding:1em;
+}
+.card:hover {
+    cursor: pointer;
+    opacity: 75%;
 }
